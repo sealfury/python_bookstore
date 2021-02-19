@@ -1,6 +1,8 @@
 from tkinter import *  # pylint: disable=unused-wildcard-import
 import backend
 
+selection = None
+
 
 def get_selected_row(event):
     global selection
